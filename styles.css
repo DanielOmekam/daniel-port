@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0056b3;
+    color: white;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+}
+
+header .contain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main .contain {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Home */
+.introduction {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.introduction h2 {
+    margin-top: 0;
+    font-size: 2.5em;
+}
+
+.introduction p {
+    font-size: 1.2em;
+    margin-top: 0;
+}
+
+.introduction img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+
+.quote {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.quote p:last-child {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-style: normal;
+}
+
+/* About  */
+.activity {
+    background-color: #0056b3;
+    color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.activity h3 {
+    font-size: 1.8em;
+}
+
+.activitycontent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.activity img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+
+/* Portfolio */
+.project {
+    background-color: #fff;
+    color: #000;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin-left: 20px;
+}
