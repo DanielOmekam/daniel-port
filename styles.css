@@ -127,3 +127,20 @@ main .contain {
     border-radius: 8px;
     margin-left: 20px;
 }
+
+
+article{
+    display:flex;
+    justify-content: center;
+
+}
+
+textarea{
+    width:200%;
+    height:100px
+}
+
+#submit:hover{
+    background-color: yellow;
+    color:blue;
+}
